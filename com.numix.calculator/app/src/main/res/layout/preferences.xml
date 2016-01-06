@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="@string/pref_actions" >
+        <CheckBoxPreference
+            android:title="@string/returnToBasic"
+            android:key="RETURN_TO_BASIC"
+            android:defaultValue="@bool/RETURN_TO_BASIC" />
+        <CheckBoxPreference
+            android:title="@string/digitGrouping"
+            android:key="DIGIT_GROUPING"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_units" >
+        <CheckBoxPreference
+            android:title="@string/trigUnits"
+            android:key="USE_RADIANS"
+            android:switchTextOn="@string/radians"
+            android:switchTextOff="@string/degrees"
+            android:defaultValue="@bool/USE_RADIANS" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_theme" >
+        <Preference
+            android:title="@string/holo" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_about" >
+        <Preference
+            android:title="Upgrade to PRO!"
+            android:key="info">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="market://details?id=com.numix.calculator_pro"
+                />
+        </Preference>
+        <Preference
+            android:title="@string/app_name"
+            android:summary="@string/application_copyright"
+            android:key="ABOUT"/>
+    </PreferenceCategory>
+</PreferenceScreen>
