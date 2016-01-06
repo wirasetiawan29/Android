@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="no_to_dos">Ei tekemättömiä tehtäviä</string>
+    <string name="title">Otsikko</string>
+    <string name="remind_me">Muistutus</string>
+    <string name="choose_date">Päivämäärä</string>
+    <string name="choose_time">Aika</string>
+    <string name="remind_date_and_time">Muistutus asetettu: %1$s, %2$s %3$s</string>
+    <string name="about">Tietoja</string>
+    <string name="app_version">Versio: %1$s</string>
+    <string name="contact_me">Ota yhteyttä</string>
+    <string name="made_by">Tekijä Avjinder</string>
+    <string name="done_label">Valmis</string>
+
+    <string name="date_reminder_default">Tänään</string>
+    <string name="date_error_check_again">Annettu päivämäärä on menneisyydessä.</string>
+
+    <string name="night_mode">Yötila</string>
+    <string name="night_mode_on_summary">Yötila päällä</string>
+    <string name="night_mode_off_summary">Yötila poissa päältä</string>
+
+    <string-array name="snooze_options">
+        <item>10 Minuuttia</item>
+        <item>30 Minuuttia</item>
+        <item>1 Tunti</item>
+    </string-array>
+
+    <string name="snooze">Torkuta</string>
+    <string name="remove">Poista</string>
+</resources>

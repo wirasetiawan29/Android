@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minimal</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="no_to_dos">No tienes ningún To-do</string>
+    <string name="title">Título</string>
+    <string name="remind_me">Avísame</string>
+    <string name="choose_date">Fecha</string>
+    <string name="choose_time">Hora</string>
+    <string name="remind_date_and_time">Recordatorio el %1$s, %2$s %3$s</string>
+    <string name="about">Acerca de</string>
+    <string name="app_version">Versión: %1$s</string>
+    <string name="contact_me">Puedes contactarme en</string>
+    <string name="made_by">Hecho por Avjinder</string>
+    <string name="done_label">Hecho</string>
+
+    <string-array name="snooze_options">
+        <item>10 Minutos</item>
+        <item>30 Minutos</item>
+        <item>1 Hora</item>
+    </string-array>
+
+    <string name="snooze">Siesta</string>
+    <string name="remove">Eliminar</string>
+</resources>
