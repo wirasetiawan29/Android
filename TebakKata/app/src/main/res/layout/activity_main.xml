@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="111dp"
+        android:text="Wellcome To Hangman Game" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="onClickStart"
+        android:text="Start" />
+    
+    <Spinner 
+        android:id="@+id/spinnerCategory"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"/>
+    
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="onClickAbout"
+        android:text="About" />
+    
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:onClick="onClickExit"
+        android:text="Exit" />
+
+</LinearLayout>
