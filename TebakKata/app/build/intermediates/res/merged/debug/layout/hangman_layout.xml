@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false"
+    android:padding="10dp" >
+    
+    <ImageView
+        android:id="@+id/imageChance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxHeight="120dp"
+        android:maxWidth="120dp"
+        android:minHeight="120dp"
+        android:minWidth="120dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Category" />
+
+    <TextView
+        android:id="@+id/textViewHiddenWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="HiddenWord"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp" >
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="A"
+            android:onClick="onClickLetter"
+            android:tag="A" />
+        
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="B"
+            android:onClick="onClickLetter"
+            android:tag="B" />
+        
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="C"
+            android:onClick="onClickLetter"
+            android:tag="C" />
+        
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="D"
+            android:onClick="onClickLetter"
+            android:tag="D" />
+        
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="E"
+            android:onClick="onClickLetter"
+            android:tag="E" />
+        
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="F"
+            android:onClick="onClickLetter"
+            android:tag="F" />
+        
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="G"
+            android:onClick="onClickLetter"
+            android:tag="G" />
+        
+        </LinearLayout>
+        
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >
+        
+        <Button
+            android:id="@+id/buttonH"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="H"
+            android:onClick="onClickLetter"
+            android:tag="H" />
+        
+        <Button
+            android:id="@+id/buttonI"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="I"
+            android:onClick="onClickLetter"
+            android:tag="I" />
+        
+        <Button
+            android:id="@+id/buttonJ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="J"
+            android:onClick="onClickLetter"
+            android:tag="J" />
+        
+        <Button
+            android:id="@+id/buttonK"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="K"
+            android:onClick="onClickLetter"
+            android:tag="K" />
+        
+        <Button
+            android:id="@+id/buttonL"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="L"
+            android:onClick="onClickLetter"
+            android:tag="L" />
+        
+        <Button
+            android:id="@+id/buttonM"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="M"
+            android:onClick="onClickLetter"
+            android:tag="M" />
+        
+        <Button
+            android:id="@+id/buttonN"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="N"
+            android:onClick="onClickLetter"
+            android:tag="N" />
+        
+        </LinearLayout>
+        
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >	
+        
+        <Button
+            android:id="@+id/buttonO"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="O"
+            android:onClick="onClickLetter"
+            android:tag="O" />
+        
+        <Button
+            android:id="@+id/buttonP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="P"
+            android:onClick="onClickLetter"
+            android:tag="P" />
+        
+        <Button
+            android:id="@+id/buttonQ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Q"
+            android:onClick="onClickLetter"
+            android:tag="Q" />
+        
+        <Button
+            android:id="@+id/buttonR"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="R"
+            android:onClick="onClickLetter"
+            android:tag="R" />
+        
+        <Button
+            android:id="@+id/buttonS"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="S"
+            android:onClick="onClickLetter"
+            android:tag="S" />
+        
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="T"
+            android:onClick="onClickLetter"
+            android:tag="T" />
+        
+        <Button
+            android:id="@+id/buttonU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="U"
+            android:onClick="onClickLetter"
+            android:tag="U" />
+        
+        </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center" >
+        
+        <Button
+            android:id="@+id/buttonV"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="V"
+            android:onClick="onClickLetter"
+            android:tag="V" />
+        
+        <Button
+            android:id="@+id/buttonW"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="W"
+            android:onClick="onClickLetter"
+            android:tag="W" />
+        
+        <Button
+            android:id="@+id/buttonX"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="X"
+            android:onClick="onClickLetter"
+            android:tag="X" />
+        
+        <Button
+            android:id="@+id/buttonY"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Y"
+            android:onClick="onClickLetter"
+            android:tag="Y" />
+        
+        <Button
+            android:id="@+id/buttonZ"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Z"
+            android:onClick="onClickLetter"
+            android:tag="Z" />
+        
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/layout/hangman_layout.xml -->
