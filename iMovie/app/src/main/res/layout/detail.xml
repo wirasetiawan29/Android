@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!-- Name Label -->
+        <TextView android:id="@+id/title_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#43bd00"/>
+        <!-- Email Label -->
+        <TextView android:id="@+id/rating_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#acacac"/>
+        <!-- Mobile Label -->
+        <TextView android:id="@+id/year_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/synopsis"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"/>
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
