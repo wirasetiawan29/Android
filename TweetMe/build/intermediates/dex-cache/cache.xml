@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/wira/Dropbox/Android/TweetMe/app/libs/universal-image-loader-1.9.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="/Users/wira/Dropbox/Android/TweetMe/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.1-5df121a3a06d121cfb822ed5335e410bc1fece38.jar" />
+    </item>
+    <item
+        jar="/Users/Shared/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/wira/Dropbox/Android/TweetMe/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-f4dc4269489489d1d1b85a44c61e0e1bf4ad0c11.jar" />
+    </item>
+    <item
+        jar="/Users/wira/Dropbox/Android/TweetMe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/wira/Dropbox/Android/TweetMe/app/build/intermediates/pre-dexed/debug/classes-cbfbe3fcec7ac911a02256be20c3b1b4f300ccc9.jar" />
+    </item>
+    <item
+        jar="/Users/wira/Dropbox/Android/TweetMe/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/wira/Dropbox/Android/TweetMe/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4-dc3151152f1107d02e167fa2875e5de82c1f2b2f.jar" />
+    </item>
+
+</items>

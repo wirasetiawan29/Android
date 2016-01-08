@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/edit_text_background">
+
+    <EditText
+        android:id="@+id/etPostTweetMsg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"	
+        android:layout_marginLeft="10dp"	
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"        
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+		android:inputType="textMultiLine" >
+    </EditText>
+    
+    <Button
+        android:id="@+id/btnPostTweet"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPostTweetMsg"
+        android:background="@drawable/button_background_states"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:text="Tweet"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvPostTweetLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPostTweet"
+        android:layout_alignBottom="@+id/btnPostTweet"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"        
+        android:text="0 characters" />
+    
+</RelativeLayout><!-- From: file:/Users/wira/Dropbox/Android/TweetMe/app/src/main/res/layout/dialog_post_tweet.xml -->

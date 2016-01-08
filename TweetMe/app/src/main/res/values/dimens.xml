@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="snap_width">300dp</dimen>
+    <dimen name="snap_height">210dp</dimen>
+    <dimen name="snap_preview_marginleft">190dp</dimen>
+    <dimen name="snap_preview_margintop">90dp</dimen>
+
+    <!-- //dimens for values height / width -->
+    <dimen name="dimens_1dp">1dp</dimen>
+    <dimen name="dimens_2dp">2dp</dimen>
+    <dimen name="dimens_5dp">5dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_15dp">15dp</dimen>
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_25dp">25dp</dimen>
+    <dimen name="dimens_30dp">30dp</dimen>
+    <dimen name="dimens_40dp">40dp</dimen>
+    <dimen name="dimens_50dp">50dp</dimen>
+    <dimen name="dimens_60dp">60dp</dimen>
+    <dimen name="dimens_75dp">79dp</dimen>
+    <dimen name="dimens_80dp">80dp</dimen>
+    <dimen name="dimens_85dp">85dp</dimen>
+    <dimen name="dimens_90dp">90dp</dimen>
+    <dimen name="dimens_100dp">100dp</dimen>
+    <dimen name="dimens_110dp">110dp</dimen>
+    <dimen name="dimens_130dp">130dp</dimen>
+    <dimen name="dimens_150dp">150dp</dimen>
+    <dimen name="dimens_180dp">182dp</dimen>
+    <dimen name="dimens_200dp">200dp</dimen>
+    <dimen name="dimens_300dp">300dp</dimen>
+    <dimen name="dimens_400dp">400dp</dimen>
+	<dimen name="dimens_800dp">800dp</dimen>
+    
+    <!-- //dimens for text size -->
+    <dimen name="text_8sp">6sp</dimen>
+    <dimen name="text_10sp">8sp</dimen>
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_22sp">22sp</dimen>
+    <dimen name="text_25sp">25sp</dimen>
+    <dimen name="text_30sp">30sp</dimen>
+    
+    <!-- Grid Card -->
+    <dimen name="card_gplay_grid_columnwidth">140dp</dimen>
+    <dimen name="card_gplay_grid_columnwidth_card">125dp</dimen>
+    <dimen name="carddemo_base_grid_columnwidth">140dp</dimen>
+    <dimen name="carddemo_base_grid_columnwidth_card">125dp</dimen>
+    <dimen name="carddemo_gricursor_width">125dp</dimen>
+    
+    <!-- Card -->
+    <dimen name="card_base_empty_height">72dp</dimen>
+
+    <dimen name="card_birth_width">350dp</dimen>
+    <dimen name="card_mayknow_margin_top">3dp</dimen>
+        
+</resources>

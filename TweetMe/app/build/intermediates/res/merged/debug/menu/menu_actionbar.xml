@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:id.or.bandungitclub.tweetme="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        id.or.bandungitclub.tweetme:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="Refresh"/>
+    
+    <item
+        android:id="@+id/action_new"
+        id.or.bandungitclub.tweetme:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_new"
+        android:title="New"/>
+
+</menu><!-- From: file:/Users/wira/Dropbox/Android/TweetMe/app/src/main/res/menu/menu_actionbar.xml -->

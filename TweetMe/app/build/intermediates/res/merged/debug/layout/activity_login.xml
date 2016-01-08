@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    tools:context="id.or.bandungitclub.tweetme.MainActivity$PlaceholderFragment" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/tweetme" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp" >
+
+                <EditText
+                    android:id="@+id/etLoginUsername"
+                    style="@style/EditText"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:completionThreshold="1"
+                    android:hint="Username"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:nextFocusDown="@+id/passwordET" />
+
+                <EditText
+                    android:id="@+id/etLoginPassword"
+                    style="@style/EditText"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Password"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:password="true" />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/button_background_states"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="Login"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRegister"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Don&apos;t have account? Register here"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/Users/wira/Dropbox/Android/TweetMe/app/src/main/res/layout/activity_login.xml -->

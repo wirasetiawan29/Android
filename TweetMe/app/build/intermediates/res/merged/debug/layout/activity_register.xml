@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimens_10dp"
+    android:paddingRight="@dimen/dimens_10dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10dp" >
+
+                <TextView
+                    android:id="@+id/tvRegisterEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true"
+                    android:text="Email"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/etRegisterEmail"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="value"
+                    android:imeOptions="actionNext"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10dp" >
+
+                <TextView
+                    android:id="@+id/tvRegisterUsername"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true"
+                    android:text="Username"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/etRegisterUsername"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="value"
+                    android:imeOptions="actionNext"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10dp" >
+
+                <TextView
+                    android:id="@+id/tvRegisterPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true"
+                    android:text="Password"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <EditText
+                    android:id="@+id/etRegisterPassword"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.25"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="value"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10dp" >
+
+                <EditText
+                    android:id="@+id/etRegisterBirth"
+                    style="@style/EditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimens_5dp"
+                    android:layout_weight="1.0"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="sans-serif-condensed"
+                    android:hint="Date of Birth"
+                    android:imeOptions="actionNext"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/btnRegisterDatePicker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/button_background_states"
+                    android:drawableLeft="@drawable/ic_action_calendar"
+                    android:singleLine="true"
+                    android:text="Date"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimens_10dp" >
+
+                <TextView
+                    android:id="@+id/tvRegisterGender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="@dimen/dimens_10dp"
+                    android:singleLine="true"
+                    android:text="Gender"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/white" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:singleLine="true" >
+
+                    <RadioButton
+                        android:id="@+id/radioMale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:singleLine="true"
+                        android:text="Male"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+
+                    <RadioButton
+                        android:id="@+id/radioFemale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Female"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@android:color/white" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegisterUser"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_background_states"
+                android:padding="10dp"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/wira/Dropbox/Android/TweetMe/app/src/main/res/layout/activity_register.xml -->
