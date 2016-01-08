@@ -49,13 +49,15 @@ public class Hangman extends Activity {
 		arrayClue = new char[hiddenWord.length()];
 		
 		arrayHiddenWord = hiddenWord.toCharArray();
-		for (int i; i < arrayHiddenWord.length; i++)
-		{
-			if (arrayHiddenWord[i]!=" ")
-			{
-				arrayClue[i]="_";
-			}
-		}
+
+
+//		for (int i; i < arrayHiddenWord.length; i++)
+//		{
+//			if (arrayHiddenWord[i]!=" ")
+//			{
+//				arrayClue[i]="_";
+//			}
+//		}
 		
 	}
 	

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Shared/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/wira/Dropbox/Android/TebakKata/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-f4dc4269489489d1d1b85a44c61e0e1bf4ad0c11.jar" />
+    </item>
+
+</items>
