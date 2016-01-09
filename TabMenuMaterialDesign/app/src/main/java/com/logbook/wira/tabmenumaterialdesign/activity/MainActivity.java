@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.logbook.wira.tabmenumaterialdesign.R;
-import com.logbook.wira.tabmenumaterialdesign.FragmentSatu;
-import com.logbook.wira.tabmenumaterialdesign.FragmentDua;
-import com.logbook.wira.tabmenumaterialdesign.fragments.TwoFragment;
+import com.logbook.wira.tabmenumaterialdesign.fragment.FragmentSatu;
+import com.logbook.wira.tabmenumaterialdesign.fragment.FragmentDua;
+import com.logbook.wira.tabmenumaterialdesign.fragment.FragmentTiga;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new OneFragment(), "ONE");
-        adapter.addFragment(new TwoFragment(), "TWO");
-        adapter.addFragment(new ThreeFragment(), "THREE");
+        adapter.addFragment(new FragmentSatu(), "SATU");
+        adapter.addFragment(new FragmentDua(), "DUA");
+        adapter.addFragment(new FragmentTiga(), "TIGA");
         viewPager.setAdapter(adapter);
     }
 
