@@ -34,7 +34,6 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final ListView list = (ListView) findViewById(R.id.makanan);
-        //final ListView list_makanan = (ListView) findViewById(R.id.makanan);
 
 
         FlipSettings settings = new FlipSettings.Builder().defaultPage(1).build();
