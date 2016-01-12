@@ -73,7 +73,7 @@ public class MainActivity extends ActionBarActivity {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            return super.onCreateView(inflater, container, savedInstanceState){
+
 
             String [] data = {
                     "Mon 6/23 - Sunny - 31/17",
@@ -88,7 +88,6 @@ public class MainActivity extends ActionBarActivity {
             List<String> weekForecast = new ArrayList<String>(Arrays.asList(data));
             View rootView = inflater.inflate(R.layout.content_main, container, false);
             return rootView;
-        }
 
 
         }
