@@ -202,10 +202,15 @@ public class PdfRendererBasicFragment extends Fragment implements View.OnClickLi
                 showPage(mCurrentPage.getIndex() + 1);
                 break;
             }
+
+            case R.id.fab:{
+                showPage(mCurrentPage.getIndex());
+            }
         }
     }
 
-    
+
+
 
 }
 
