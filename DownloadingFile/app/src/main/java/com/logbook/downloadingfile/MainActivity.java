@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
-                new DownloadFileFormURL().execute(file_url);
+                new DownloadFileFromURL().execute(file_url);
             }
         });
     }
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    class DownloadFileFormURL extends AsyncTask<String, String, String>
+    class DownloadFileFromURL extends AsyncTask<String, String, String>
 
     {
         protected  void onPreExecute(){
