@@ -1,5 +1,10 @@
 package com.wirasetiawan.expandlistview;
 
+import android.app.AlertDialog;
+import android.content.ContentValues;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -9,12 +14,17 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    View expenseAdd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,14 +56,20 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();
+
+                addtask();
             }
         });
+
+
     }
 
     private ExpandableAdapter getAdapter(){
@@ -70,6 +86,24 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return new ExpandableAdapter(this, items);
+    }
+
+    public void addtask () {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Add a task");
+        builder.setMessage("What do you want to do?");
+        final EditText inputField = new EditText(this);
+        builder.setView(inputField);
+        builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+               finish();
+            }
+        });
+
+        builder.setNegativeButton("Cancel", null);
+
+        builder.create().show();
     }
 
     @Override

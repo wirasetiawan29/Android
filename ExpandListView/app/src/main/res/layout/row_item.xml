@@ -22,6 +22,8 @@
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+
     </RelativeLayout>
 
     <FrameLayout
@@ -30,10 +32,58 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.AppCompatTextView
+        <!--<android.support.v7.widget.AppCompatTextView-->
+            <!--android:id="@+id/deskripsi"-->
+            <!--android:padding="16dp"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/deskripsi"-->
+                <!--android:padding="16dp"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="test"/>-->
+
+            <!--<include android:id="@+id/expenseAdd" layout="@layout/add"/>-->
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_below="@+id/deskripsi"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="100dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="test"/>&ndash;&gt;-->
+
+        <!--</RelativeLayout>-->
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:id="@+id/container"
+            android:paddingLeft="10dp"
+            android:layout_height="match_parent">
+
+            <TextView
             android:id="@+id/deskripsi"
             android:padding="16dp"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="test"/>
+
+            <include
+                android:id="@+id/expenseAdd"
+                layout="@layout/add"/>
+
+            </LinearLayout>
+
+
+
+
+
+
     </FrameLayout>
 </RelativeLayout>
