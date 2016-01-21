@@ -25,7 +25,6 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     View expenseAdd;
-    private View content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,24 +50,11 @@ public class MainActivity extends AppCompatActivity {
                         item.isExpanded = true;
                     }
                 }
-
-                //
+                adapter.notifyDataSetChanged();
             }
         });
 
 
-//        if (expenseAdd == null) {
-//            View convertView = View.inflate(getApplicationContext(), R.layout.row_item, null);
-//            Button addButton = (Button)convertView.findViewById(R.id.expenseAdd);
-//
-//            addButton.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View view) {
-//                    // your code to add to the child list
-//                    addtask();
-//                }
-//            });
-//        }
 
 
 

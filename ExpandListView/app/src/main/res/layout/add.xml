@@ -4,7 +4,7 @@
     android:padding="10dp"
     android:layout_height="wrap_content">
 
-    <Button
+    <ImageView
         android:layout_gravity="center"
         android:src="@drawable/ic_add"
         android:layout_width="25dp"

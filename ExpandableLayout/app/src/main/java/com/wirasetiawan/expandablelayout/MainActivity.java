@@ -1,6 +1,8 @@
 package com.wirasetiawan.expandablelayout;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +12,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.andexert.expandablelayout.library.ExpandableLayoutListView;
 
@@ -26,6 +30,16 @@ public class MainActivity extends Activity {
         final ExpandableLayoutListView expandableLayoutListView = (ExpandableLayoutListView) findViewById(R.id.listview);
 
         expandableLayoutListView.setAdapter(arrayAdapter);
+
+        Button addButton = (Button) findViewById(R.id.button);
+
+            addButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    // your code to add to the child list
+                    addtask();
+                }
+            });
     }
 
 
@@ -46,5 +60,23 @@ public class MainActivity extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void addtask () {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Add a task");
+        builder.setMessage("What do you want to do?");
+        final EditText inputField = new EditText(this);
+        builder.setView(inputField);
+        builder.setPositiveButton("Add", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+
+        builder.setNegativeButton("Cancel", null);
+
+        builder.create().show();
     }
 }

@@ -10,11 +10,11 @@
         android:layout_height="48dp"
         android:gravity="center"
         android:hint="Hello World !"
-        android:textColor="@color/colorAccent"
-        android:background="@color/colorPrimary"/>
+        android:textColor="@color/colorAccent"/>
 
     <Button
         android:layout_below="@+id/text"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="click ME !"/>
