@@ -12,18 +12,33 @@
 
     <!--<TextView android:text="Hello World!" android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content" />-->
-
-    <com.andexert.expandablelayout.library.ExpandableLayout
-        android:id="@+id/first"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        expandable:el_headerLayout="@layout/view_header"
-        expandable:el_contentLayout="@layout/view_content"/>
+        android:layout_height="match_parent">
 
-    <com.andexert.expandablelayout.library.ExpandableLayoutListView
+        <com.andexert.expandablelayout.library.ExpandableLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            expandable:el_headerLayout="@layout/view_header"
+            expandable:el_contentLayout="@layout/view_content"/>
+
+        <!--<com.andexert.expandablelayout.library.ExpandableLayout-->
+            <!--android:id="@+id/second"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--expandable:el_headerLayout="@layout/view_header"-->
+            <!--expandable:el_contentLayout="@layout/view_content"/>-->
+
+        <com.andexert.expandablelayout.library.ExpandableLayoutListView
         android:id="@+id/listview"
         android:layout_below="@+id/first"
         android:layout_width="match_parent"
         android:layout_marginTop="15dp"
         android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
 </RelativeLayout>

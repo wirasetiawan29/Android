@@ -3,8 +3,8 @@ package com.logbook.wira.pdfreader;
 /**
  * Created by wira on 1/14/16.
  */
-import android.app.Activity;
 import android.app.Fragment;
+import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.pdf.PdfRenderer;

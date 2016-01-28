@@ -4,19 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/text"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:gravity="center"
-        android:hint="Hello World !"
-        android:textColor="@color/colorAccent"/>
+        android:layout_height="match_parent">
 
-    <Button
-        android:layout_below="@+id/text"
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="click ME !"/>
+        <ListView
+            android:id="@+id/networth_after2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+        <!--<EditText-->
+        <!--android:id="@+id/text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:gravity="center"-->
+        <!--android:hint="Hello World !"-->
+        <!--android:textColor="@color/colorAccent"/>-->
+
+        <Button
+            android:layout_below="@+id/text"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="click ME !"/>
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

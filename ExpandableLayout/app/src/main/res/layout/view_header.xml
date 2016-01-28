@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/satu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/rl_title_wrapper"
@@ -33,7 +39,9 @@
         android:layout_height="48dp"
         android:padding="10dp"
         android:textColor="@color/colorPrimary"
-        android:text="ExpandableLayout Header!"
+        android:text="Assets Awal"
         android:gravity="center"/>
+    </RelativeLayout>
 
-</RelativeLayout>
+</LinearLayout>
+
