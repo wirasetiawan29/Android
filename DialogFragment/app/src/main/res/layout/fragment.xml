@@ -5,7 +5,6 @@
     android:padding="16dp"
     tools:context="com.wirasetiawan.viewpagerarrowindicator.Fragment">
 
-
     <TextView
         android:id="@+id/textview_in_fragment"
         android:layout_width="wrap_content"
