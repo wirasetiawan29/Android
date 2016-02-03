@@ -12,36 +12,9 @@
 
     <android.support.v4.view.ViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"
-
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/satu"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/noun_104904_cc"/>
-
-        <ImageView
-            android:id="@+id/dua"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/noun_145703_cc"/>
-
-        <ImageView
-            android:id="@+id/tiga"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@drawable/noun_43056_cc"/>
-
-    </LinearLayout>
-
-    </android.support.v4.view.ViewPager>
 
 </LinearLayout>
