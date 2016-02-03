@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewPagerArrowIndicator</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment">Fragment Kosong</string>
+</resources>

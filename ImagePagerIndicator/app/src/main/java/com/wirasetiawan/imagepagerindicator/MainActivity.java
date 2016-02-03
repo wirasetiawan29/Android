@@ -1,13 +1,20 @@
 package com.wirasetiawan.imagepagerindicator;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+//        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+//        ImagePagerAdapter adapter = new ImagePagerAdapter();
+//        viewPager.setAdapter(adapter);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -48,5 +59,43 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    private class ImagePagerAdapter extends PagerAdapter {
+        private int[] mImages = new int[] {
+                R.drawable.noun_104904_cc,
+                R.drawable.noun_145703_cc,
+                R.drawable.noun_43056_cc,
+                R.drawable.noun_98255_cc
+        };
+
+        @Override
+        public int getCount() {
+            return mImages.length;
+        }
+
+        @Override
+        public boolean isViewFromObject(View view, Object object) {
+            return view == ((ImageView) object);
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            Context context = MainActivity.this;
+            ImageView imageView = new ImageView(context);
+            int padding = context.getResources().getDimensionPixelSize(
+                    R.dimen.padding_medium);
+            imageView.setPadding(padding, padding, padding, padding);
+            imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+            imageView.setImageResource(mImages[position]);
+            ((ViewPager) container).addView(imageView, 0);
+            return imageView;
+        }
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+            ((ViewPager) container).removeView((ImageView) object);
+        }
     }
 }
