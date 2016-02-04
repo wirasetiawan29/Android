@@ -24,7 +24,7 @@ public class MyDialogFragment extends DialogFragment {
 
         viewPager = (ViewPager) getActivity().findViewById(R.id.viewPager);
         viewPagerArrowIndicator = (ViewPagerArrowIndicator) getActivity().findViewById(R.id.viewPagerArrowIndicator);
-        viewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
+        viewPager.setAdapter(new MyPagerAdapter(getActivity().getSupportFragmentManager()));
 
         viewPagerArrowIndicator.bind(viewPager);
 
