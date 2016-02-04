@@ -3,41 +3,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="com.wirasetiawan.viewpagerarrowindicator.Fragment">
+    tools:context="com.wirasetiawan.dialogfragment.Fragment">
 
-    <TextView
-        android:id="@+id/textview_in_fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Halaman Kosong"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_gravity="center"/>
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
         android:gravity="center">
 
-        <ImageView
-            android:id="@+id/satu"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/user"/>
+        <LinearLayout
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
 
-        <ImageView
-            android:id="@+id/dua"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/user"/>
+            <ImageView
+                android:id="@+id/satu"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user"/>
 
-        <ImageView
-            android:id="@+id/tiga"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="@drawable/user"/>
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/dua"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user"/>
+
+            <ImageView
+                android:id="@+id/tiga"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_in_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Halaman Kosong"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_below="@+id/test"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
 
 
 

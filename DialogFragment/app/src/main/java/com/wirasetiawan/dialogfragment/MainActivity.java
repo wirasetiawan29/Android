@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         viewPagerArrowIndicator.bind(viewPager);
 
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
-                android.app.FragmentManager fm = getFragmentManager();
+                FragmentManager fm = getSupportFragmentManager();
                 MyDialogFragment dialogFragment = new MyDialogFragment();
                 dialogFragment.show(fm, "Sample Fragment");
             }

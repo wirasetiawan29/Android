@@ -1,7 +1,9 @@
 package com.wirasetiawan.dialogfragment;
 
-import android.app.DialogFragment;
+import android.app.Activity;
+import android.support.v4.app.DialogFragment;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -19,20 +21,25 @@ public class MyDialogFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.content_main, container, false);
-        getDialog().setTitle("Simple Dialog");
-        return rootView;
+        getDialog().setTitle("Property Update");
 
-        viewPager = (ViewPager) getActivity().findViewById(R.id.viewPager);
-        viewPagerArrowIndicator = (ViewPagerArrowIndicator) getActivity().findViewById(R.id.viewPagerArrowIndicator);
-        viewPager.setAdapter(new MyPagerAdapter(getActivity().getSupportFragmentManager()));
+
+        viewPager = (ViewPager) rootView.findViewById(R.id.viewPager);
+        viewPagerArrowIndicator = (ViewPagerArrowIndicator) rootView.findViewById(R.id.viewPagerArrowIndicator);
+
+        viewPager.setAdapter(new MyPagerAdapter1(getActivity().getSupportFragmentManager()));
 
         viewPagerArrowIndicator.bind(viewPager);
+        return rootView;
 
     }
 
-    private class MyPagerAdapter extends FragmentPagerAdapter {
-        public MyPagerAdapter(FragmentManager fm) {
-            super(fm);
+
+
+
+    private class MyPagerAdapter1 extends FragmentPagerAdapter {
+        public MyPagerAdapter1(FragmentManager fm) {
+            super(getChildFragmentManager());
         }
 
         @Override
