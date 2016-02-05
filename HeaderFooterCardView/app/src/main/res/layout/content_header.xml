@@ -12,7 +12,7 @@
         <TextView
             android:id="@+id/txtHeader"
             android:gravity="center"
-            android:textColor="@android:color/primary_text_dark"
+            android:textColor="@color/colorPrimary"
             android:textSize="@dimen/abc_text_size_large_material"
             android:layout_width="match_parent"
             android:layout_height="50dp" />

@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             ListItem item = new ListItem();
             item.setName("image" + i);
             if (i % 2 == 0)
-                item.setId(R.drawable.user);
+                item.setId(R.drawable.call);
             else
                 item.setId(R.drawable.call);
             listItems.add(item);
