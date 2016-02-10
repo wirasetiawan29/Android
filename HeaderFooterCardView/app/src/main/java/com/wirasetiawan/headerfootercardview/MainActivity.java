@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     public List<ListItem> getListItems()
     {
         List<ListItem> listItems = new ArrayList<ListItem>();
-        for (int i = 0; i<10; i++) {
+        for (int i = 0; i<5; i++) {
             ListItem item = new ListItem();
             item.setName("image" + i);
             if (i % 2 == 0)

@@ -99,10 +99,10 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
     public int getItemViewType(int position) {
         if(isPositionHeader(position))
             return TYPE_HEADER;
-        else if (isPositionFooter(position))
-            return TYPE_FOOTER;
+        else if (isPositionHeader(position - 1))
+            return TYPE_ITEM;
         else
-        return TYPE_ITEM;
+        return TYPE_FOOTER;
     }
 
     private boolean isPositionHeader(int position)
