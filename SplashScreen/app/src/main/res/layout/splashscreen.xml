@@ -12,18 +12,17 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="169dp"
-        android:text="Please wait....."
+        android:text="@string/Loading"
         android:textSize="30sp"
-        android:textStyle="bold"
-        />
+        android:textColor="@color/material_blue_grey_800"
+        android:paddingBottom="20dp"/>
 
     <ProgressBar
+        android:padding="10dp"
         android:id="@+id/progressBar1" style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-
-        />
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
