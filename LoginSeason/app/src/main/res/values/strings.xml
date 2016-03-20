@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoginSeason</string>
+    <string name="action_settings">Settings</string>
+    <string name="saved">Sudah di simpan di SharedPreferences.</string>
+</resources>

@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:2:1-28:12
-	xmlns:android
-		ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:2:11-69
 	package
 		ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml
@@ -13,6 +11,8 @@ ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xm
 		ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:4:5-28
 		INJECTED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from /Users/wira/Dropbox/Android/TebakKata/app/src/main/AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion

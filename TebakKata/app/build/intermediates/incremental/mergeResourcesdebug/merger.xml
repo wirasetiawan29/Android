@@ -18,14 +18,14 @@
         <item>Snake</item>
         <item>Tiger</item>
         <item>Zebra</item>
-    </string-array></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">TebakKata</string><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+    </string-array></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values/strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string><string name="app_name">TebakKata</string></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
-    </style><style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
         <!-- API 11 theme customizations can go here. -->
     </style></file><file path="/Users/wira/Dropbox/Android/TebakKata/app/src/main/res/values-v14/styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">

@@ -1,0 +1,46 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:3:7-40
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:5:7-32
+	android:versionCode
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:4:7-30
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:6:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:6:15-40
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:8:5-19:19
+	android:label
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:8:48-80
+	android:icon
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:8:18-47
+activity#net.sf.andpdf.pdfviewer.PdfViewerActivity
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:10:9-16:20
+	android:label
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:11:19-51
+	android:name
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:10:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/wira/Dropbox/Android/Android-Pdf-Viewer-Library/app/src/main/AndroidManifest.xml:14:27-74

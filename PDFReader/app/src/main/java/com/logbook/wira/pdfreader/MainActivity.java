@@ -83,8 +83,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private class ScaleListener extends
-            ScaleGestureDetector.SimpleOnScaleGestureListener {
+    private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
         @Override
         public boolean onScale(ScaleGestureDetector detector) {
             scale *= detector.getScaleFactor();
