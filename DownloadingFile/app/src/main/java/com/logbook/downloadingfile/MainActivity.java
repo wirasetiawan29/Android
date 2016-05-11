@@ -93,9 +93,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    class DownloadFileFromURL extends AsyncTask<String, String, String>
-
-    {
+    protected class DownloadFileFromURL extends AsyncTask<String, String, String> {
         protected  void onPreExecute(){
         super.onPreExecute();
         showDialog(progress_bar_type);
