@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true">
+
+
+
+        <FrameLayout
+            android:id="@+id/wrapper"
+            android:layout_below="@+id/rl_title_wrapper"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content">
+                    <android.support.v7.widget.AppCompatTextView
+                        android:textColor="@color/colorAccents"
+                        android:text="Footer"
+                        android:id="@+id/deskripsi"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/amountTextView2"
+                        android:text="Rp. 500"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:ellipsize="end"
+                        android:textColor="@color/colorAccents"
+                        android:singleLine="true">
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+
+
+
+                <!--<Button-->
+                <!--android:padding="10dp"-->
+                <!--android:id="@+id/tambah"-->
+                <!--android:text="Tambah Data"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+    </RelativeLayout>

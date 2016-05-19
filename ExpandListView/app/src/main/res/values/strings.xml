@@ -1,4 +1,22 @@
 <resources>
-    <string name="app_name">ExpandListView</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="app_name">Expandable List View</string>
+    <string name="add">Add</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="product_hint">Enter Products for the Store</string>
+    <string name="department_store">My Department Store &#8230;</string>
+
+    <string-array name="dept_array">
+        <item>Apparel</item>
+        <item>Beauty</item>
+        <item>Electronics</item>
+        <item>Grocery</item>
+        <item>Home Improvement</item>
+        <item>Jewelry</item>
+        <item>Pharmacy</item>
+    </string-array>
+
+    <color name="snow">#eee9e9</color>
+
 </resources>

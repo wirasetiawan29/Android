@@ -12,7 +12,7 @@ import com.firebase.client.ValueEventListener;
 public class MainActivity extends AppCompatActivity {
 
     TextView fireData;
-    Firebase mRef;
+    Firebase ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
 
         fireData = (TextView) findViewById(R.id.firebase_textview);
-        mRef = new Firebase("https://jojojanus.firebaseio.com/currentMessage");
-        mRef.addValueEventListener(new ValueEventListener() {
+        ref = new Firebase("https://wirasetiawan29.firebaseio.com/chat");
+        ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String superData = (String) dataSnapshot.getValue();
@@ -36,3 +36,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
+
