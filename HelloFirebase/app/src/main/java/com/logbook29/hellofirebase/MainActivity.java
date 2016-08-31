@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView fireData;
     Firebase ref;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +22,11 @@ public class MainActivity extends AppCompatActivity {
         Firebase.setAndroidContext(this);
 
         fireData = (TextView) findViewById(R.id.firebase_textview);
-        ref = new Firebase("https://wirasetiawan29.firebaseio.com/chat");
-        ref.addValueEventListener(new ValueEventListener() {
+//        ref = new Firebase("https://wirasetiawan29.firebaseio.com/test");
+
+        ref = new Firebase("https://jojojanus.firebaseio.com/chates/");
+        Firebase userId = ref.child("users/0948fea0ae0e68a8550ce9950f698ab2/room");
+        userId.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 String superData = (String) dataSnapshot.getValue();
