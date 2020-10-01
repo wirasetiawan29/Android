@@ -17,8 +17,8 @@ Hai All, pada kesempatan kali ini kita akan membahas tutorial pengembangan aplik
 	<li><strong><a href="https://wirasetiawan29.wordpress.com/2015/01/07/splash-screen-di-android/" target="_blank">Membuat Splashscreen di Android</a></strong></li>
 	<li><strong><a href="https://wirasetiawan29.wordpress.com/2016/02/03/listview-dan-adapter-di-android/" target="_blank">ListView</a></strong></li>
 	<li><strong><a href="https://wirasetiawan29.wordpress.com/2016/01/20/membuat-expand-listview-material-design-di-android/" target="_blank">Expand ListView</a></strong></li>
-	<li><strong>Recycler View</strong></li>
-	<li><b>Layout &amp; View</b></li>
+	<li><a href="https://github.com/wirasetiawan29/Android/tree/master/RecyclerView" target="_blank"><strong>Recycler View</strong></a></li>
+	<li><a href="https://github.com/wirasetiawan29/Android/tree/master/Layout" target="_blank"><b>Layout &amp; View</b></a></li>
 	<li><strong>Device Configuration</strong></li>
 	<li><strong>Attributes</strong></li>
 	<li><strong><a href="https://wirasetiawan29.wordpress.com/2016/01/01/membuat-option-menu-di-android/" target="_blank">Option Menu
@@ -51,7 +51,7 @@ Hai All, pada kesempatan kali ini kita akan membahas tutorial pengembangan aplik
 	<li><strong><a href="https://wirasetiawan29.wordpress.com/2016/01/21/membuat-aplikasi-download-file-sederhana-di-android/" target="_blank">Download File</a></strong></li>
 	<li><strong>Parsing JSON</strong></li>
 	<li><strong>Rest API di Android</strong></li>
-	<li><strong>Aplikasi iMovie</strong></li>
+	<li><a href="https://github.com/wirasetiawan29/Android/tree/master/iMovie" target="_blank"><strong>Aplikasi iMovie</strong></a></li>
 </ul>
 
 <hr />
