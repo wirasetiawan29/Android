@@ -11,7 +11,7 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+//allproject are in repositories
 allprojects {
     repositories {
         jcenter()
